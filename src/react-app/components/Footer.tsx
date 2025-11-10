@@ -8,10 +8,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-3 space-x-reverse mb-4">
-              <img 
-                src="https://mocha-cdn.com/019a29a3-2f05-72fd-a4d3-fea788052ed4/shomron-medical-logo.png"
+              <img
+                src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="לוגו מעיין הבריאות בשומרון"
                 className="w-10 h-10 object-contain"
+                loading="lazy"
+                width={40}
+                height={40}
               />
               <h3 className="text-xl font-bold">מעיין הבריאות בשומרון</h3>
             </div>

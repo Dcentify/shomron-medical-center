@@ -21,10 +21,13 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-3 space-x-reverse">
-            <img 
-              src="https://mocha-cdn.com/019a29a3-2f05-72fd-a4d3-fea788052ed4/shomron-medical-logo.png"
+            <img
+              src={`${import.meta.env.BASE_URL}logo.png`}
               alt="לוגו מעיין הבריאות בשומרון"
               className="w-16 h-16 object-contain"
+              loading="eager"
+              width={64}
+              height={64}
             />
             <div>
               <h1 className="text-lg font-bold text-gray-900">מעיין הבריאות בשומרון</h1>
