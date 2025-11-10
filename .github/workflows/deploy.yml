@@ -25,15 +25,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "18"
-          cache: "npm"
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
 
       - name: Install dependencies
-        run: |
-          npm config set legacy-peer-deps true
-          npm install
+        run: npm install --no-package-lock
 
       - name: Build
         run: npm run build
