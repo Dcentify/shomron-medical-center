@@ -1,16 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router";
-import Header from "@/react-app/components/Header";
-import Footer from "@/react-app/components/Footer";
-import HomePage from "@/react-app/pages/Home";
-import AboutPage from "@/react-app/pages/About";
-import ProjectPage from "@/react-app/pages/Project";
-import HelpPage from "@/react-app/pages/Help";
-import TeamPage from "@/react-app/pages/Team";
-import NewsPage from "@/react-app/pages/News";
-import ContactPage from "@/react-app/pages/Contact";
-import DonatePage from "@/react-app/pages/Donate";
-import PrivacyPage from "@/react-app/pages/Privacy";
-import TermsPage from "@/react-app/pages/Terms";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HomePage from "./pages/Home";
+import AboutPage from "./pages/About";
+import ProjectPage from "./pages/Project";
+import HelpPage from "./pages/Help";
+import TeamPage from "./pages/Team";
+import NewsPage from "./pages/News";
+import ContactPage from "./pages/Contact";
+import DonatePage from "./pages/Donate";
+import PrivacyPage from "./pages/Privacy";
+import TermsPage from "./pages/Terms";
 
 export default function App() {
   return (
