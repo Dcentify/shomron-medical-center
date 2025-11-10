@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-3 space-x-reverse">
             <img
-              src="https://mocha-cdn.com/019a29a3-2f05-72fd-a4d3-fea788052ed4/shomron-medical-logo.png"
+              src="/logo.png"
               alt="לוגו מעיין הבריאות בשומרון"
               className="w-16 h-16 object-contain"
               loading="eager"
