@@ -4,7 +4,7 @@ import './Team.css'; // Preserve original styles
 const Team = () => {
   const teamMembers = [
     {
-      name: 'שמואל וייס',
+      name: 'שמוליק וייס',
       role: 'Team Lead', 
       description: 'Experienced leader in the field.',
       expertise: 'Team management, Project coordination'
