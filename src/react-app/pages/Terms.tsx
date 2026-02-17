@@ -129,7 +129,7 @@ export default function Terms() {
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p><strong>אימייל:</strong> legal@shomron-medical.org</p>
-                <p><strong>טלפון:</strong> 050-1234567</p>
+                <p><strong>טלפון:</strong> 050-9019203</p>
                 <p><strong>כתובת:</strong> כיסופים 24, קרני שומרון</p>
               </div>
             </section>
