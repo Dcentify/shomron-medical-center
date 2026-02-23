@@ -51,12 +51,14 @@ export default function Header() {
           </nav>
 
           {/* Donation Button */}
-          <Link
-            to="/donate"
+          <a
+            href="https://nedar.im/gdRC"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:block bg-gradient-to-r from-green-500 to-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all duration-200"
           >
             תרומה
-          </Link>
+          </a>
 
           {/* Mobile Menu Button */}
           <button
@@ -87,13 +89,15 @@ export default function Header() {
                   {item.label}
                 </Link>
               ))}
-              <Link
-                to="/donate"
+              <a
+                href="https://nedar.im/gdRC"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="bg-gradient-to-r from-green-500 to-blue-600 text-white px-6 py-2 rounded-full font-semibold text-center mt-4"
+                className="bg-gradient-to-r from-green-500 to-blue-600 text-white px-6 py-2 rounded-full font-semibold text-center mt-4 block"
               >
                 תרומה
-              </Link>
+              </a>
             </div>
           </div>
         )}
