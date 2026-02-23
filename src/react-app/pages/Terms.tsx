@@ -128,7 +128,7 @@ export default function Terms() {
                 לשאלות או הבהרות בנוגע לתנאי השימוש:
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p><strong>אימייל:</strong> legal@shomron-medical.org</p>
+                <p><strong>אימייל:</strong> mbshomron@gmail.com</p>
                 <p><strong>טלפון:</strong> 050-9019203</p>
                 <p><strong>כתובת:</strong> כיסופים 24, קרני שומרון</p>
               </div>
@@ -136,7 +136,7 @@ export default function Terms() {
 
             <div className="border-t border-gray-200 pt-8 mt-8">
               <p className="text-sm text-gray-500">
-                תנאי שימוש אלה עודכנו לאחרונה: אוקטובר 2024
+                תנאי שימוש אלה עודכנו לאחרונה: ינואר 2026
               </p>
             </div>
           </div>
