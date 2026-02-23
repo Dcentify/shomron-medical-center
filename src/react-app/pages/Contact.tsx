@@ -180,8 +180,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">טלפון</h3>
-                    <a href="tel:050-9019203" className="text-gray-600 hover:text-blue-600 transition-colors">
-                      050-9019203
+                    <a href="tel:050-6655586" className="text-gray-600 hover:text-blue-600 transition-colors">
+                      050-6655586
                     </a>
                   </div>
                 </div>

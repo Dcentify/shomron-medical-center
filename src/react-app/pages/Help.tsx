@@ -153,7 +153,7 @@ export default function Help() {
                 <span>צור קשר</span>
               </Link>
               <a
-                href="https://wa.me/972501234567"
+                href="https://wa.me/972506655586"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 flex items-center justify-center space-x-2 space-x-reverse"

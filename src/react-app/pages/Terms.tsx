@@ -129,7 +129,7 @@ export default function Terms() {
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p><strong>אימייל:</strong> mbshomron@gmail.com</p>
-                <p><strong>טלפון:</strong> 050-9019203</p>
+                <p><strong>טלפון:</strong> 050-6655586</p>
                 <p><strong>כתובת:</strong> כיסופים 24, קרני שומרון</p>
               </div>
             </section>

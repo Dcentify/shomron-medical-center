@@ -42,12 +42,14 @@ export default function Home() {
               טיפול רפואי קהילתי בקרני שומרון - זמין תמיד, גם בלילה, גם בשבת
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/donate"
+              <a
+                href="https://nedar.im/gdRC"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gradient-to-r from-green-500 to-yellow-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
               >
                 תרמו עכשיו
-              </Link>
+              </a>
               <Link
                 to="/project"
                 className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-blue-700 transition-all duration-300 flex items-center justify-center space-x-2 space-x-reverse"
@@ -169,13 +171,15 @@ export default function Home() {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
-                  <Link
-                    to="/donate"
+                  <a
+                    href="https://nedar.im/gdRC"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-gradient-to-r from-green-500 to-yellow-500 text-white px-10 py-5 rounded-full text-xl font-bold hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 space-x-reverse"
                   >
                     <Heart className="w-6 h-6" />
-                    <span>הצטרפו אלינו - תרמו עכשיว</span>
-                  </Link>
+                    <span>הצטרפו אלינו - תרמו עכשיו</span>
+                  </a>
                 </div>
                 
                 <div className="pt-6 border-t border-gray-200 mt-8">
@@ -240,12 +244,14 @@ export default function Home() {
             כל תרומה, קטנה כגדולה, מקרבת אותנו למטרה. בואו נבנה יחד עתיד רפואי טוב יותר לכולנו.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/donate"
+            <a
+              href="https://nedar.im/gdRC"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
             >
               תרמו עכשיו
-            </Link>
+            </a>
             <Link
               to="/help"
               className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300"
@@ -253,7 +259,7 @@ export default function Home() {
               דרכים נוספות לעזור
             </Link>
             <a
-              href="https://wa.me/972501234567"
+              href="https://wa.me/972506655586"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300 flex items-center justify-center space-x-2 space-x-reverse"
