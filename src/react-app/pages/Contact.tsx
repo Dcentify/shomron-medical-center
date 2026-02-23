@@ -210,7 +210,7 @@ export default function Contact() {
               </div>
               <p className="mb-6">לתגובה מהירה ונוחות מרבית, צרו קשר איתנו דרך וואטסאפ</p>
               <a
-                href="https://wa.me/972501234567"
+                href="https://wa.me/972506655586"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-green-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 inline-block"
