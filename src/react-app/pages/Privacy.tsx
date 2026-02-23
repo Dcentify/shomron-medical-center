@@ -114,7 +114,7 @@ export default function Privacy() {
                 לשאלות או בקשות בנוגע לפרטיות ושימוש במידע, אנא צרו קשר:
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p><strong>אימייל:</strong> privacy@shomron-medical.org</p>
+                <p><strong>אימייל:</strong> mbshomron@gmail.com</p>
                 <p><strong>טלפון:</strong> 050-9019203</p>
                 <p><strong>כתובת:</strong> כיסופים 24, קרני שומרון</p>
               </div>
@@ -122,7 +122,7 @@ export default function Privacy() {
 
             <div className="border-t border-gray-200 pt-8 mt-8">
               <p className="text-sm text-gray-500">
-                מדיניות פרטיות זו עודכנה לאחרונה: אוקטובר 2024
+                מדיניות פרטיות זו עודכנה לאחרונה: ינואר 2026
               </p>
             </div>
           </div>
