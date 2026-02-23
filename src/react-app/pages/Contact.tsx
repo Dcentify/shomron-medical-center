@@ -192,8 +192,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">אימייל</h3>
-                    <a href="mailto:info@shomron-medical.org" className="text-gray-600 hover:text-blue-600 transition-colors">
-                      info@shomron-medical.org
+                    <a href="mailto:mbshomron@gmail.com" className="text-gray-600 hover:text-blue-600 transition-colors">
+                      mbshomron@gmail.com
                     </a>
                   </div>
                 </div>
