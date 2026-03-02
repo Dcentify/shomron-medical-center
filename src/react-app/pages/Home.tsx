@@ -20,14 +20,15 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-green-600 text-white overflow-hidden">
+      <section className="relative text-white overflow-hidden">
         <img 
-          src="https://mocha-cdn.com/019a29a3-2f05-72fd-a4d3-fea788052ed4/medical-center-hero.jpg"
-          alt="מרכז רפואי מודרני"
-          className="absolute inset-0 w-full h-full object-cover z-0"
+          src="/hero-landscape.png"
+          alt="נוף השומרון"
+          className="absolute inset-0 w-full h-full object-cover object-center z-0"
           loading="eager"
+          fetchPriority="high"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-600/80 via-blue-700/80 to-green-600/80 z-0"></div>
+        <div className="absolute inset-0 bg-black/50 z-0"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 z-10">
           <div className="text-center">
             <div className="mb-6">
