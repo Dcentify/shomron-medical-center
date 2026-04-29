@@ -44,7 +44,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://nedar.im/gdRC"
+                href="https://causematch.com/maayan-habriyut"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-green-500 to-yellow-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
@@ -173,7 +173,7 @@ export default function Home() {
                 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
                   <a
-                    href="https://nedar.im/gdRC"
+                    href="https://causematch.com/maayan-habriyut"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-green-500 to-yellow-500 text-white px-10 py-5 rounded-full text-xl font-bold hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 space-x-reverse"
@@ -246,7 +246,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://nedar.im/gdRC"
+              href="https://causematch.com/maayan-habriyut"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"

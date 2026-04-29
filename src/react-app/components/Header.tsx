@@ -52,7 +52,7 @@ export default function Header() {
 
           {/* Donation Button */}
           <a
-            href="https://nedar.im/gdRC"
+            href="https://causematch.com/maayan-habriyut"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block bg-gradient-to-r from-green-500 to-blue-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-all duration-200"
@@ -90,7 +90,7 @@ export default function Header() {
                 </Link>
               ))}
               <a
-                href="https://nedar.im/gdRC"
+                href="https://causematch.com/maayan-habriyut"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMobileMenuOpen(false)}
