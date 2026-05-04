@@ -29,7 +29,6 @@ export default function Team() {
     {
       name: "עו״ד אבי במברגר",
       role: "יועץ משפטי",
-      description: "עורך דין",
       expertise: ["דיני עמותות", "דיני בינוי", "דיני בריאות"]
     }
   ];
