@@ -173,7 +173,7 @@ export default function Home() {
                 
                 <div className="pt-6 border-t border-gray-200 mt-8">
                   <p className="text-lg font-semibold text-gray-800">
-                    נשיא העמותה, ד"ר יעקב זליגמן.
+                    נשיא העמותה והיועץ הרפואי, ד"ר יעקב זליגמן.
                   </p>
                 </div>
               </div>

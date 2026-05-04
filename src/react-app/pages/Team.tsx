@@ -11,8 +11,8 @@ export default function Team() {
     },
     {
       name: "ד״ר יעקב זליגמן",
-      role: "סגן יו״ר והיועץ הרפואי",
-      description: "רופא במערכת הבריאות הישראלית",
+      role: "נשיא העמותה והיועץ הרפואי",
+      description: "רופא כירורג",
       expertise: ["רפואה פנימית", "ניהול רפואי", "איכות בטיחות"]
     },
     {
@@ -24,13 +24,12 @@ export default function Team() {
     {
       name: "ישי מייזלס",
       role: "מורשה חתימה וגזבר",
-      description: "רו״ח מוסמך המתמחה בניהול כספי של עמותות ומוסדות ציבור",
       expertise: ["ניהול כספי", "ביקורת פנימית", "תקציבים"]
     },
     {
       name: "עו״ד אבי במברגר",
       role: "יועץ משפטי",
-      description: "עורך דין המתמחה בדיני עמותות, בינוי ודיני בריאות",
+      description: "עורך דין",
       expertise: ["דיני עמותות", "דיני בינוי", "דיני בריאות"]
     }
   ];
@@ -78,9 +77,11 @@ export default function Team() {
                       <p className="text-lg text-blue-600 font-semibold">{member.role}</p>
                     </div>
                   </div>
+                  {member.description ? (
                   <p className="text-gray-700 text-lg leading-relaxed mb-6">
                     {member.description}
                   </p>
+                  ) : null}
                   <div className="flex flex-wrap gap-2">
                     {member.expertise.map((skill, skillIndex) => (
                       <span
