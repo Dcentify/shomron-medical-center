@@ -42,13 +42,13 @@ export default function Project() {
   const facilities = [
     {
       name: "חדרי בדיקה כלליים",
-      count: 8,
+      count: 2,
       icon: Stethoscope,
       description: "חדרי בדיקה מודרניים לרפואה כללית"
     },
     {
       name: "חדרי התמחויות",
-      count: 6,
+      count: 2,
       icon: Building,
       description: "חדרים מתמחים לקרדיולוגיה, אורתופדיה ועוד"
     },
@@ -75,7 +75,7 @@ export default function Project() {
             המרכז הרפואי - הפרויקט שלנו
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            מרכז רפואי מודרני בשטח של 350 מ״ר שיספק שירותים רפואיים מקיפים לכל תושבי השומרון
+            מרכז רפואי מודרני בשטח של 80 מ״ר שיספק שירותים רפואיים מקיפים לכל תושבי השומרון
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export default function Project() {
                 </div>
                 <div className="flex items-center mb-4">
                   <Building className="w-6 h-6 text-blue-600 ml-3" />
-                  <span className="text-gray-700">שטח: 350 מ״ר נטו</span>
+                  <span className="text-gray-700">שטח: 80 מ״ר נטו</span>
                 </div>
                 <div className="flex items-center">
                   <Users className="w-6 h-6 text-blue-600 ml-3" />
@@ -111,7 +111,7 @@ export default function Project() {
                   className="rounded-lg shadow-lg w-full"
                 />
                 <div className="absolute -bottom-4 -left-4 bg-white p-4 rounded-lg shadow-lg">
-                  <div className="text-2xl font-bold text-blue-600">350</div>
+                  <div className="text-2xl font-bold text-blue-600">80</div>
                   <div className="text-sm text-gray-600">מ״ר שטח</div>
                 </div>
               </div>

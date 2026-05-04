@@ -1,22 +1,10 @@
 import { Heart, Users, Building, Stethoscope, ArrowLeft, Phone, Clock, AlertCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
 
-interface DonationStats {
-  total_donations: number;
-  total_amount: number;
-}
+const DISPLAYED_SUPPORTS = 1364;
+const DISPLAYED_DONATIONS_TOTAL_NIS = 310_000;
 
 export default function Home() {
-  const [stats, setStats] = useState<DonationStats>({ total_donations: 0, total_amount: 0 });
-
-  useEffect(() => {
-    fetch('/api/donations/stats')
-      .then(res => res.json())
-      .then(data => setStats(data))
-      .catch(console.error);
-  }, []);
-
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -205,21 +193,23 @@ export default function Home() {
               <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Building className="w-8 h-8 text-white" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-2">350</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">80</div>
               <div className="text-gray-600">מ״ר שטח המרכז</div>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-2">{stats.total_donations}</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">{DISPLAYED_SUPPORTS}</div>
               <div className="text-gray-600">תומכים</div>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Heart className="w-8 h-8 text-white" />
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-2">₪{stats.total_amount.toLocaleString()}</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">
+                ₪{DISPLAYED_DONATIONS_TOTAL_NIS.toLocaleString('he-IL')}
+              </div>
               <div className="text-gray-600">נתרם עד כה</div>
             </div>
             <div className="text-center">
